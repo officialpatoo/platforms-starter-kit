@@ -1,10 +1,7 @@
-import { InlineSnippet } from "@/components/form/domain-configuration";
 import Image from "next/image";
 import LoginButton from "./login-button";
 import { Suspense } from "react";
 
-export default function HomePage() {
-  return (
 export default function LoginPage() {
   return (
     <div className="mx-5 border border-stone-200 py-10 sm:mx-auto sm:w-full sm:max-w-md sm:rounded-lg sm:shadow-md dark:border-stone-700">
