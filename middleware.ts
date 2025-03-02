@@ -54,7 +54,7 @@ export default async function middleware(req: NextRequest) {
   // special case for `vercel.pub` domain
   if (hostname === "vercel.pub") {
     return NextResponse.redirect(
-      "https://app.atolog.com/login",
+      "https://app.vercel.pub/login"
     );
   }
 
